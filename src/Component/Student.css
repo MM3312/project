@@ -1,0 +1,132 @@
+.container1{
+    
+    min-height: 100vh;
+    background-color: #dadce036;
+    padding-top:  106Px;
+    /* margin-top: 10px; */
+    padding-left: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Inter' ;
+    
+    
+}
+
+
+/* .container-wrapper{
+    width: 479px;
+    height: 145px;
+    top: 48px;
+    padding-left: 24px;
+    gap: 15px;
+}  */
+
+.container-wrapper{
+    text-wrap: wrap;
+}
+
+
+.student-title{
+    font-size: 36px;
+    font-family: 'Inter';
+    font-weight: 700;
+    letter-spacing:-2.2px;
+    color:#252C32;
+    line-height: 0px;
+
+}
+
+
+
+.student-des{
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    letter-spacing:-0.6px;
+    color:#6E7C87;
+    line-height: 100%;
+
+
+   
+    
+}
+
+
+
+
+.search{
+    position: relative;
+    margin-left: -1%;
+}
+
+.search .searchIcon{
+    position: absolute;
+    left: 13px;
+}
+/* .searchIcon{
+    font-size: 10px;
+} */
+.search input {
+    width: 250px;
+    height: 39px;
+   padding-left: 35px;
+   border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    color:#00000040;
+    margin-left: 5px;
+}
+
+.search-container{
+   
+    max-width:600px;
+}
+.search-list{
+    list-style-type: none;
+    padding-left:100px;
+    display:flex;
+    flex-direction: row;
+    gap:5px;
+    flex-wrap: wrap;
+}
+
+.search-list li{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    color: #252C32;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    height: 50px;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0 20px;
+    white-space: nowrap;
+    gap: 5px;
+    padding-top: 27px;
+    padding-bottom: 25px;
+    
+}
+.search-list li:hover {
+    background: linear-gradient(90deg, #E8E9FF 0%, #FFFFFF 100%);
+    cursor: pointer;
+  }
+
+.search-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.search-list img{
+    padding-bottom: 5px;
+    padding-top: 3px;
+    
+}
